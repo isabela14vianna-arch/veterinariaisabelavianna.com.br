@@ -3,57 +3,224 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dra. Isabela Vianna | Médica Veterinária Domiciliar</title>
-<meta name="description" content="Dra. Isabela Vianna, médica veterinária domiciliar em Nova Friburgo e região.">
+<title>Dra. Isabela Vianna | Veterinária Domiciliar em Nova Friburgo</title>
+<meta name="description" content="Dra. Isabela Vianna, médica veterinária domiciliar em Nova Friburgo e região. Atendimento veterinário para cães e gatos, consultas clínicas e vacinação no conforto do lar.">
+<link rel="canonical" href="https://veterinariaisabelavianna.com.br/">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Dra. Isabela Vianna | Veterinária Domiciliar em Nova Friburgo">
+<meta property="og:description" content="Atendimento veterinário domiciliar para cães e gatos em Nova Friburgo e região.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://veterinariaisabelavianna.com.br/">
+<meta property="og:locale" content="pt_BR">
 <style>
-:root{--olive:#66735a;--dark:#4e5a45;--cream:#f7f3ea;--white:#fffdf8;--text:#30352e;--muted:#6d7269;--line:#ddd9ce}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--text);background:var(--cream);line-height:1.6}
-.container{width:min(1080px,92%);margin:auto}
-header{min-height:650px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(247,243,234,.98),rgba(247,243,234,.55))}
-nav{position:absolute;top:0;left:0;right:0;padding:22px 0}
-nav .container{display:flex;justify-content:space-between;align-items:center}
-.brand{font-weight:700}
-nav a{color:var(--text);text-decoration:none;margin-left:24px}
-.hero{padding-top:90px;max-width:680px}
-.eyebrow{color:var(--dark);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:.78rem}
-h1{font-family:Georgia,serif;font-size:clamp(2.7rem,7vw,5rem);line-height:1.02;font-weight:500;margin:15px 0 20px}
-h2{font-family:Georgia,serif;font-size:2.2rem;font-weight:500;line-height:1.15}
-.hero p{font-size:1.15rem;color:var(--muted)}
-.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
-.btn{display:inline-block;padding:13px 21px;border-radius:999px;text-decoration:none;font-weight:700}
-.primary{background:var(--olive);color:white}
-.secondary{border:1px solid var(--line);color:var(--text)}
-section{padding:78px 0}
-.white{background:var(--white)}
-.intro{max-width:720px}
-.intro p{color:var(--muted)}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:32px}
-.card{background:var(--white);padding:28px;border:1px solid var(--line);border-radius:20px}
-.card h3{margin-top:0}
-.card p{color:var(--muted)}
-.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
-.quote{border-left:4px solid var(--olive);padding-left:22px;font-family:Georgia,serif;font-size:1.35rem}
-.cta{background:var(--olive);color:white;border-radius:28px;padding:55px}
-.cta p{max-width:600px}
-.cta .primary{background:white;color:var(--dark)}
-footer{padding:30px 0;color:var(--muted);font-size:.9rem}
+:root{
+--olive:#66735a;
+--dark:#4e5a45;
+--cream:#f7f3ea;
+--white:#fffdf8;
+--text:#30352e;
+--muted:#6d7269;
+--line:#ddd9ce
+}
+*{
+box-sizing:border-box
+}
+html{
+scroll-behavior:smooth
+}
+body{
+margin:0;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+color:var(--text);
+background:var(--cream);
+line-height:1.6
+}
+.container{
+width:min(1080px,92%);
+margin:auto
+}
+header{
+min-height:650px;
+display:flex;
+align-items:center;
+background:linear-gradient(90deg,rgba(247,243,234,.98),rgba(247,243,234,.55))
+}
+nav{
+position:absolute;
+top:0;
+left:0;
+right:0;
+padding:22px 0
+}
+nav .container{
+display:flex;
+justify-content:space-between;
+align-items:center
+}
+.brand{
+font-weight:700
+}
+nav a{
+color:var(--text);
+text-decoration:none;
+margin-left:24px
+}
+.hero{
+padding-top:90px;
+max-width:680px
+}
+.eyebrow{
+color:var(--dark);
+font-weight:700;
+letter-spacing:.12em;
+text-transform:uppercase;
+font-size:.78rem
+}
+h1{
+font-family:Georgia,serif;
+font-size:clamp(2.7rem,7vw,5rem);
+line-height:1.02;
+font-weight:500;
+margin:15px 0 20px
+}
+h2{
+font-family:Georgia,serif;
+font-size:2.2rem;
+font-weight:500;
+line-height:1.15
+}
+.hero p{
+font-size:1.15rem;
+color:var(--muted)
+}
+.buttons{
+display:flex;
+gap:12px;
+flex-wrap:wrap;
+margin-top:28px
+}
+.btn{
+display:inline-block;
+padding:13px 21px;
+border-radius:999px;
+text-decoration:none;
+font-weight:700
+}
+.primary{
+background:var(--olive);
+color:white
+}
+.secondary{
+border:1px solid var(--line);
+color:var(--text)
+}
+section{
+padding:78px 0
+}
+.white{
+background:var(--white)
+}
+.intro{
+max-width:720px
+}
+.intro p{
+color:var(--muted)
+}
+.cards{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:18px;
+margin-top:32px
+}
+.card{
+background:var(--white);
+padding:28px;
+border:1px solid var(--line);
+border-radius:20px
+}
+.card h3{
+margin-top:0
+}
+.card p{
+color:var(--muted)
+}
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center
+}
+.quote{
+border-left:4px solid var(--olive);
+padding-left:22px;
+font-family:Georgia,serif;
+font-size:1.35rem
+}
+.cta{
+background:var(--olive);
+color:white;
+border-radius:28px;
+padding:55px
+}
+.cta p{
+max-width:600px
+}
+.cta .primary{
+background:white;
+color:var(--dark)
+}
+footer{
+padding:30px 0;
+color:var(--muted);
+font-size:.9rem
+}
 @media(max-width:760px){
-nav a{display:none}
-header{min-height:620px}
-.cards,.about{grid-template-columns:1fr}
-.about{gap:25px}
-.cta{padding:35px 25px}
+nav a{
+display:none
+}
+header{
+min-height:620px
+}
+.cards,.about{
+grid-template-columns:1fr
+}
+.about{
+gap:25px
+}
+.cta{
+padding:35px 25px
+}
 }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VeterinaryCare",
+  "name": "Dra. Isabela Vianna - Médica Veterinária Domiciliar",
+  "url": "https://veterinariaisabelavianna.com.br/",
+  "telephone": "+55 22 99962-1410",
+  "description": "Atendimento veterinário domiciliar para cães e gatos em Nova Friburgo e região.",
+  "areaServed": {
+    "@type": "City",
+    "name": "Nova Friburgo",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nova Friburgo",
+      "addressRegion": "RJ",
+      "addressCountry": "BR"
+    }
+  },
+  "availableLanguage": "Portuguese"
+}
+</script>
 </head>
 <body>
-
 <header>
 <nav>
 <div class="container">
-<div class="brand">Dra. Isabela Vianna</div>
+<div class="brand">
+Dra. Isabela Vianna
+</div>
 <div>
 <a href="#servicos">Serviços</a>
 <a href="#sobre">Sobre</a>
@@ -61,79 +228,116 @@ header{min-height:620px}
 </div>
 </div>
 </nav>
-
 <div class="container">
 <div class="hero">
-<div class="eyebrow">Médica Veterinária Domiciliar</div>
-<h1>Cuidado veterinário no conforto do lar.</h1>
-<p>Atendimento domiciliar para cães e gatos em Nova Friburgo e região, com cuidado individualizado e respeito ao tempo de cada paciente.</p>
-
+<div class="eyebrow">
+Médica Veterinária Domiciliar em Nova Friburgo
+</div>
+<h1>
+Cuidado veterinário no conforto do lar.
+</h1>
+<p>
+Atendimento veterinário domiciliar para cães e gatos em Nova Friburgo e região, com cuidado individualizado e respeito ao tempo de cada paciente.
+</p>
 <div class="buttons">
-<a class="btn primary" href="https://wa.me/5522999621410">Agendar pelo WhatsApp</a>
-<a class="btn secondary" href="#servicos">Conhecer atendimento</a>
+<a class="btn primary" href="https://wa.me/5522999621410">
+Agendar pelo WhatsApp
+</a>
+<a class="btn secondary" href="#servicos">
+Conhecer atendimento
+</a>
 </div>
 </div>
 </div>
 </header>
-
 <section id="servicos" class="white">
 <div class="container">
 <div class="intro">
-<div class="eyebrow">Atendimento</div>
-<h2>Medicina veterinária mais tranquila para você e seu pet.</h2>
-<p>A consulta em casa permite avaliar o paciente no ambiente em que ele vive, reduzindo o estresse do deslocamento e proporcionando um atendimento individualizado.</p>
+<div class="eyebrow">
+Atendimento veterinário
 </div>
-
+<h2>
+Medicina veterinária mais tranquila para você e seu pet.
+</h2>
+<p>
+A consulta veterinária domiciliar permite avaliar o paciente no ambiente em que ele vive, reduzindo o estresse do deslocamento e proporcionando um atendimento individualizado.
+</p>
+<p>
+Realizo atendimento domiciliar para cães e gatos em Nova Friburgo e região, incluindo consultas clínicas e cuidados preventivos.
+</p>
+</div>
 <div class="cards">
 <div class="card">
 <h3>🐶 Cães</h3>
-<p>Consultas clínicas, acompanhamento e cuidados preventivos.</p>
+<p>
+Consultas clínicas, acompanhamento e cuidados preventivos para cães, realizados no conforto de casa.
+</p>
 </div>
-
 <div class="card">
 <h3>🐱 Gatos</h3>
-<p>Atendimento respeitando as particularidades e o comportamento felino.</p>
+<p>
+Atendimento veterinário respeitando as particularidades, o comportamento e o tempo de cada paciente felino.
+</p>
 </div>
-
 <div class="card">
 <h3>💉 Vacinação</h3>
-<p>Avaliação do estado geral e vacinação com os cuidados necessários.</p>
+<p>
+Avaliação do estado geral e vacinação com os cuidados necessários para a segurança do paciente.
+</p>
 </div>
 </div>
 </div>
 </section>
-
 <section id="sobre">
 <div class="container about">
 <div>
-<div class="eyebrow">Sobre mim</div>
-<h2>Dra. Isabela Vianna</h2>
-<p>Sou médica veterinária e realizo atendimento domiciliar em Nova Friburgo e região.</p>
-<p>Meu objetivo é oferecer uma consulta cuidadosa, individualizada e acolhedora, sempre respeitando as necessidades de cada animal.</p>
+<div class="eyebrow">
+Sobre mim
 </div>
-
+<h2>
+Dra. Isabela Vianna
+</h2>
+<p>
+Sou médica veterinária e realizo atendimento veterinário domiciliar em Nova Friburgo e região.
+</p>
+<p>
+Meu objetivo é oferecer uma consulta cuidadosa, individualizada e acolhedora, sempre respeitando as necessidades de cada animal e a rotina de cada família.
+</p>
+<p>
+O atendimento em casa permite que cães e gatos sejam avaliados em um ambiente familiar, proporcionando uma experiência mais tranquila para o paciente e para seus tutores.
+</p>
+</div>
 <div class="quote">
+
 “Cada paciente tem seu próprio tempo, sua própria história e suas próprias necessidades.”
+
 </div>
 </div>
 </section>
-
 <section id="contato" class="white">
 <div class="container">
 <div class="cta">
-<div class="eyebrow" style="color:white">Agendamento</div>
-<h2>Seu pet precisa de uma consulta?</h2>
-<p>Entre em contato pelo WhatsApp para verificar disponibilidade e agendar um atendimento domiciliar.</p>
-<a class="btn primary" href="https://wa.me/5522999621410">Falar com a Dra. Isabela</a>
+<div class="eyebrow" style="color:white">
+Agendamento
+</div>
+<h2>
+Seu pet precisa de uma consulta veterinária?
+</h2>
+<p>
+Entre em contato pelo WhatsApp para verificar disponibilidade e agendar um atendimento veterinário domiciliar em Nova Friburgo e região.
+</p>
+<a class="btn primary" href="https://wa.me/5522999621410">
+Falar com a Dra. Isabela
+</a>
 </div>
 </div>
 </section>
-
 <footer>
 <div class="container">
+
 © 2026 Dra. Isabela Vianna · Médica Veterinária Domiciliar · Nova Friburgo e região
+
 </div>
 </footer>
-
 </body>
 </html>
